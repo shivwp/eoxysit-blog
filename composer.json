@@ -1,0 +1,29 @@
+{
+    "name": "eoxysit/blog",
+    "description": "This Package Have Make Functionality To Add Blog",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "EoxysIT\\Blog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "eoxysit",
+            "email": "mailto:shivkumawat1985@hotmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EoxysIT\\Blog\\BlogServiceProvider"
+            ],
+           
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+    
+}
+
+
