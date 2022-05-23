@@ -61,7 +61,7 @@ class TagController extends Controller
             
              'title'=>'required',
              'discription'=>'required',
-             'image'=> 'required|image|mimes:jpeg,png,jpg',
+             'image'=> 'image|mimes:jpeg,png,jpg',
         ]);
          $data = Tag::find($request->id);
    
