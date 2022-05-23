@@ -67,7 +67,7 @@ class CategoryController extends Controller
         $validated = $request->validate([
             
              'title'=>'required',
-             'image'=> 'required|image|mimes:jpeg,png,jpg',
+             'image'=> 'image|mimes:jpeg,png,jpg',
             'discription'=>'required|string',
            
         ]);
